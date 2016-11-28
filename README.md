@@ -1,5 +1,7 @@
 # flux-task-list
 
+## [DEMO](http://matt.newelski.com/demo/flux-task-list/)
+
 Simple React+Flux task list application served via Node.js
 
 ## Getting Started
