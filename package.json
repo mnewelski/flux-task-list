@@ -1,0 +1,27 @@
+{
+  "name": "flux-task-list",
+  "version": "0.0.1",
+  "description": "simple React+Flux task list",
+  "main": "App.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnewelski/flux-task-list"
+  },
+  "author": "Matt Newelski",
+  "scripts": {
+    "start": "npm run build && npm run dev-server",
+    "build": "./node_modules/.bin/webpack",
+    "dev-server": "http-server -p 8080 public/"
+  },
+  "dependencies": {
+    "axios": "^0.4.2",
+    "events": "^1.0.2",
+    "flux": "^2.0.1",
+    "react": "^0.12.1"
+  },
+  "devDependencies": {
+    "jsx-loader": "^0.12.2",
+    "webpack": "^1.5.3",
+    "http-server": "^0.8.0"
+  }
+}
